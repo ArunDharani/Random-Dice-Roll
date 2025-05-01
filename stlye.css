@@ -1,0 +1,49 @@
+body {
+    background-image: url('./demon.png');
+}
+
+.Middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 5em;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.Top {
+    font-size: 3em;
+    color : green;
+}
+
+.click {
+    margin-top: 3em;
+    font-size: 3em;
+    border-style: groove;
+    border-radius: 20cap;
+}
+
+.result {
+    margin: 2em;
+    font-style: "Times New Roman";
+    font-size: 3em;
+    color: white;
+}
+
+.image {
+    height : 30em;
+    width  : 30em;
+}
+
+.click {
+    background-color: pink;
+}
+
+.click:hover {
+    background-color : red;
+}
